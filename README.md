@@ -9,18 +9,25 @@ commercial terms, and publication gates stay intact.
 
 ## Install
 
-[Open the install page](https://skills.sh/bomkino/write-like-pitchdog), or use
-the Skills CLI:
+[Open the install page](https://skills.sh/bomkino/write-like-pitchdog/write-like-pitchdog),
+or use the Skills CLI:
 
 ```bash
-npx skills add bomkino/write-like-pitchdog -a codex
+npx skills add https://github.com/bomkino/write-like-pitchdog --skill write-like-pitchdog -a codex -y
 ```
 
 Install globally for compatible local agents:
 
 ```bash
-npx skills add bomkino/write-like-pitchdog -a codex -g
+npx skills add https://github.com/bomkino/write-like-pitchdog --skill write-like-pitchdog -g -a codex -y
 ```
+
+For a ChatGPT workspace, download
+[`write-like-pitchdog-v1.0.0.zip`](https://github.com/bomkino/write-like-pitchdog/releases/download/v1.0.0/write-like-pitchdog-v1.0.0.zip),
+then go to **Plugins → Skills → Create → Upload from your computer**. A GitHub
+link is not a one-click ChatGPT installer. Personal Skills must currently be
+added separately on desktop and web/mobile. See
+[OpenAI’s Skills guide](https://help.openai.com/en/articles/20001066).
 
 ## Use
 
