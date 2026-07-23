@@ -1,0 +1,6 @@
+interface:
+  display_name: "Write Like pitch.dog"
+  short_description: "Sharp, warm, unmistakably pitch.dog writing"
+  default_prompt: "Use $write-like-pitchdog to draft this in pitch.dog’s sharp, warm, specific voice."
+policy:
+  allow_implicit_invocation: true
